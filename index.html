@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.js">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="M" alt="" class="logo">
+                <box-icon class="menuopen" name='menu' color='#ffffff' onclick="openmenu()" ></box-icon>
+                <ul id="sidemenu">
+                    <box-icon class="menuclose" name='x' onclick="closemenu()"></box-icon>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Service</a></li>
+                    <li><a href="#skills">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text" id="Home">
+                <h1>Hello,<br> I'm <span>Manoj</span> </h1>
+                <p><box-icon name='chevron-left' color='#ffffff' ></box-icon>FULLSTACK DEVELOPER<box-icon name='chevron-right' color='#ffffff'></box-icon></p>
+                <div class="download"><a class="dow" href="MANOJ K resumee (2).pdf" download=""> Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="about" id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="manoj12343.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="title">  About Me</h1>
+                <p> As a recent BE - Mechanical Engineering graduate, I am enthusiastic about launching my career in software industry.I am seeking opportunities to apply my skills and contribute to the success of a dynamic and growth-oriented organization. Collaborating with experienced professionals and engaging in challenging projects excites me, as it will foster both personal and professional development.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li style="list-style-type: none;"><span >Frontend Development</span><br>
+                                Html and Css <box-icon name='html5' type='logo' color='#ffffff' ></box-icon> <br> Javascript <box-icon name='javascript' type='logo' color='#ffffff' ></box-icon> <br> Bootstrap <box-icon name='bootstrap' type='logo' color='#ffffff' ></box-icon><br> React <box-icon name='react' type='logo' color='#ffffff' ></box-icon></li>
+                            <li style="list-style-type: none;"><span >Backend Development</span><br>
+                                Python<box-icon name='python' type='logo' color='#ffffff' ></box-icon> <br> MySql <box-icon name='data' type='solid' color='#ffffff' ></box-icon></li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li style="list-style-type: none;"><span ><box-icon name='graduation' type='solid' color='#fd0000' ></box-icon> BE - Mechanical Engineering</span><br>
+                                M.Kumarasamy College of Engineering, Karur <br> 2023</li>
+                            <li style="list-style-type: none;"><span ><box-icon name='graduation' type='solid' color='#fd0000' ></box-icon> Diploma - Mechanical Engineering</span><br>
+                                Kongunadu Polytechnic College, Trichy <br> 2020</li>
+                                <li style="list-style-type: none;"><span ><box-icon name='graduation' type='solid' color='#fd0000' ></box-icon> School Studies</span><br>
+                                    Kongu Matric Higher Secondary School, Paramathi Velur <br> 2018</li>
+                            </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+<!----------------------portfolio--------------------------->
+<div class="container" id="work">
+    <h1 class="title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="download.jpeg" alt="">
+            <div class="layer">
+                <h3>OTT WEBSITE</h3>
+                <p> Explore our dynamic website, created with HTML, CSS, and JavaScript. Experience an interactive and visually appealing online platform that seamlessly combines design and functionality. Identify specific skills that i demonstrated in the project,
+                    to provide you with a user-friendly and engaging online experience.</p>
+                <a href="#"><box-icon name='share-alt' type='solid' color='##ff0000' ></box-icon></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="hotelwebsite.png" alt="">
+            <div class="layer">
+                <h3>RESTRAUNT WEBSITE</h3>
+                <p>A hotel website is a web application that showcases the features, services, and facilities of a hotel to potential customers. It can also allow online enqiry, and feedback. A hotel website should be attractive, informative, and user-friendly.</p>
+                <a href="#"><box-icon name='share-alt' type='solid' color='##ff0000' ></box-icon></a>
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="download.jpeg" alt="">
+            <div class="layer">
+                <h3>EMPLOYEE MANAGEMENT USING PYTHON</h3>
+                <p>Build an efficient Employee Management System using Python to streamlit. This project will enable organizations to manage their workforce with ease, including adding new employees, updating their information, tracking, Identify and generating reports</p>
+                <a href="#"><box-icon name='share-alt' type='solid' color= '##ff0000' ></box-icon></a>
+
+        </div>
+    </div>
+
+</div>
+<div class="Contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><box-icon name='envelope' color='#ffffff' ></box-icon>manoj2908k@gmail.com </p>
+                <p><box-icon name='phone-call' type='solid' color='#ffffff' ></box-icon> +91 9940753398</p>
+                <div class="socialicon">
+                    <a href="https://wa.me/919940753398"> <box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon></a>
+                    <a href="https://www.instagram.com/_manoj.29/?igshid=NGExMmI2YTkyZg%3D%3D"><box-icon name='instagram' type='logo' color='#ffffff' ></box-icon></a>
+                    <a href="https://www.facebook.com/manoj.trs.3/"><box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></a>
+                    <a href="https://www.linkedin.com/in/manoj2908k"><box-icon name='linkedin' type='logo' color='#ffffff' ></box-icon></a>
+                    <a href="https://www.x.com/"><box-icon name='twitter' type='logo' color='#ffffff' ></box-icon></a>
+                    <a href="https://github.com/manoj292k"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
+
+                </div>
+            </div>
+            <div class="contact-right">
+                <p style="font-size: xx-large; text-align: center; font-weight: 600;"> Drop Your Comments</p>
+                <form name="submit-to-google-sheet" action="">
+                    <input type="text" placeholder=" Name" name="Name">
+                    <input type="email" placeholder=" E-mailid" name="Email" id="">
+                    <textarea placeholder="Your Message" name="Message" id="com" cols="30" rows="10"> </textarea>
+                    <button type="submit" id="submit"  onclick="number()"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: medium;font-weight: 500; color: red;"> This website was designed by Manoj</div>
+</div>
+ 
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+     <script>
+        function number(){
+    var submit = document.getElementById("com").value;
+
+    if (submit.length >=  2) {
+    window.alert("Success");
+    console.log("success",submit);
+    } 
+    else {
+    window.alert("Invalid");
+    console.log("failed",submit);
+    }
+}
+/*---------------------------------menu-----------------------------*/
+var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+/*-------------------------about--------------------------------*/
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+/*-----------------------------form--------------------------*/
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwY6lEYw2H4VM1MZu5hQSUF56DPeHy9tY9nPG2pHCAt2G9GCQseoHe70T1HYxovNDqa/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+     </script>
+      
+</body>
+</html>
