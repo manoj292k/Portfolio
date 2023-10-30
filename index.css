@@ -288,7 +288,7 @@ form input, form textarea{
 }
 button{
     padding: 15px 25px;
-    background-color: #ff0000;
+    background-color: #0000;
     margin-left: 200px;
     border-radius: 6px;
     color: white;
@@ -317,7 +317,7 @@ button{
        display: block;
         float: right;
         position: fixed;
-        background-color: #ff0000;
+       
     }
     .header{
         background-image: url(mjpic.jpg) ;
