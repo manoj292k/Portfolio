@@ -350,7 +350,7 @@ button{
         width: 200px;
         position: fixed;
         height: 100%;
-        background-color: #0000;
+        background-color: black;
         top: 0;
         right: -200px;
         padding-top: 50px;
