@@ -223,7 +223,7 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 0px;
     text-align: center;
     transition: height 0.5s;
 }
@@ -350,7 +350,7 @@ button{
         width: 200px;
         position: fixed;
         height: 100%;
-        background-color: #ff0000;
+        background-color: #0000;
         top: 0;
         right: -200px;
         padding-top: 50px;
