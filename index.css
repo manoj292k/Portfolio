@@ -356,12 +356,13 @@ button{
         right: -200px;
         padding-top: 50px;
         z-index: 1;
-        transition: 0.5s ;
+        transition: 0.7s ;
         text-align: center;
 
     }
     .menuclose{
         cursor: pointer;
+        
     }
     .contact-left{
         flex-basis:100%;
