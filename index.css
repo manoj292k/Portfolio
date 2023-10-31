@@ -40,7 +40,7 @@ nav{
     width: 140px;
 }
 
-menuclose{
+.menuclose{
     display: none;
 }
 
@@ -366,7 +366,7 @@ button{
     }
     .menuclose{
         cursor: pointer;
-        display: inline;
+        display: ;
         
         
     }
