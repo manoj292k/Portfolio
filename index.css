@@ -366,7 +366,7 @@ button{
     }
     .menuclose{
         cursor: pointer;
-        display: ;
+        display: inline-block;
         
         
     }
