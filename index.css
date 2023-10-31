@@ -39,6 +39,9 @@ nav{
 .logo{
     width: 140px;
 }
+.menuclose{
+    display: none;
+}
 
 nav ul li{
     display: inline-block;
@@ -362,6 +365,7 @@ button{
     }
     .menuclose{
         cursor: pointer;
+        display: visible;
         
     }
     .contact-left{
