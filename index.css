@@ -365,7 +365,7 @@ button{
     }
     .menuclose{
         cursor: pointer;
-        display: visible;
+        display: block;
         
     }
     .contact-left{
